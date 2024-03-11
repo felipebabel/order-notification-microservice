@@ -1,4 +1,4 @@
-package com.order.notification.infra.doc;
+package com.order.notification.infra;
 
 import io.swagger.v3.oas.models.info.Info;
 import io.swagger.v3.oas.models.OpenAPI;

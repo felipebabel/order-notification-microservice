@@ -4,7 +4,7 @@ public class DefaultResponse {
 
     public static final String ERROR = "Error";
 
-    public static final String SUCESS = "Success";
+    public static final String SUCCESS = "Success";
 
     private final String status;
 
