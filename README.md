@@ -19,6 +19,8 @@ git clone https://github.com/felipebabel/order-notification-microservice.git
 2. Install dependencies with Maven
 ## Configuration
 
+Prerequisite: JAVA 17
+
 ## Execute
 
 1. To run the microservice, run task or run for

@@ -32,74 +32,74 @@ public class OrderNotificationController implements OrderNotification {
         return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
     }
 
-    @PostMapping(
-        consumes = MediaType.APPLICATION_JSON_VALUE,
-        produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<DefaultResponse> createUser() throws OrderNotificationException {
-        this.orderNotificationService.sendNewOrder(newOrderDTO);
-        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
-    }
-
-    @PostMapping(
-        consumes = MediaType.APPLICATION_JSON_VALUE,
-        produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<DefaultResponse> createProduct() throws OrderNotificationException {
-        this.orderNotificationService.sendNewOrder(newOrderDTO);
-        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
-    }
-
-    @GetMapping(
-        value = "/product/{code}",
-        produces = MediaType.APPLICATION_JSON_VALUE
-    )
-    public ResponseEntity<DefaultResponse> getProductById() throws OrderNotificationException {
-        this.orderNotificationService.sendNewOrder(newOrderDTO);
-        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
-    }
-
-    @GetMapping(
-        value = "/product",
-        produces = MediaType.APPLICATION_JSON_VALUE
-    )
-    public ResponseEntity<DefaultResponse> getAllProduct() throws OrderNotificationException {
-        this.orderNotificationService.sendNewOrder(newOrderDTO);
-        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
-    }
-
-    @GetMapping(
-        value = "/order",
-        produces = MediaType.APPLICATION_JSON_VALUE
-    )
-    public ResponseEntity<DefaultResponse> getAllOrder() throws OrderNotificationException {
-        this.orderNotificationService.sendNewOrder(newOrderDTO);
-        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
-    }
-
-    @GetMapping(
-        value = "/order/{code}",
-        produces = MediaType.APPLICATION_JSON_VALUE
-    )
-    public ResponseEntity<DefaultResponse> getOrderById() throws OrderNotificationException {
-        this.orderNotificationService.sendNewOrder(newOrderDTO);
-        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
-    }
-
-    @GetMapping(
-        value = "/user",
-        produces = MediaType.APPLICATION_JSON_VALUE
-    )
-    public ResponseEntity<DefaultResponse> getAllUser() throws OrderNotificationException {
-        this.orderNotificationService.sendNewOrder(newOrderDTO);
-        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
-    }
-
-    @GetMapping(
-        value = "/user/{code}",
-        produces = MediaType.APPLICATION_JSON_VALUE
-    )
-    public ResponseEntity<DefaultResponse> getUserById() throws OrderNotificationException {
-        this.orderNotificationService.sendNewOrder(newOrderDTO);
-        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
-    }
+//    @PostMapping(
+//        consumes = MediaType.APPLICATION_JSON_VALUE,
+//        produces = MediaType.APPLICATION_JSON_VALUE)
+//    public ResponseEntity<DefaultResponse> createUser() throws OrderNotificationException {
+//        this.orderNotificationService.sendNewOrder(newOrderDTO);
+//        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
+//    }
+//
+//    @PostMapping(
+//        consumes = MediaType.APPLICATION_JSON_VALUE,
+//        produces = MediaType.APPLICATION_JSON_VALUE)
+//    public ResponseEntity<DefaultResponse> createProduct() throws OrderNotificationException {
+//        this.orderNotificationService.sendNewOrder(newOrderDTO);
+//        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
+//    }
+//
+//    @GetMapping(
+//        value = "/product/{code}",
+//        produces = MediaType.APPLICATION_JSON_VALUE
+//    )
+//    public ResponseEntity<DefaultResponse> getProductById() throws OrderNotificationException {
+//        this.orderNotificationService.sendNewOrder(newOrderDTO);
+//        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
+//    }
+//
+//    @GetMapping(
+//        value = "/product",
+//        produces = MediaType.APPLICATION_JSON_VALUE
+//    )
+//    public ResponseEntity<DefaultResponse> getAllProduct() throws OrderNotificationException {
+//        this.orderNotificationService.sendNewOrder(newOrderDTO);
+//        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
+//    }
+//
+//    @GetMapping(
+//        value = "/order",
+//        produces = MediaType.APPLICATION_JSON_VALUE
+//    )
+//    public ResponseEntity<DefaultResponse> getAllOrder() throws OrderNotificationException {
+//        this.orderNotificationService.sendNewOrder(newOrderDTO);
+//        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
+//    }
+//
+//    @GetMapping(
+//        value = "/order/{code}",
+//        produces = MediaType.APPLICATION_JSON_VALUE
+//    )
+//    public ResponseEntity<DefaultResponse> getOrderById() throws OrderNotificationException {
+//        this.orderNotificationService.sendNewOrder(newOrderDTO);
+//        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
+//    }
+//
+//    @GetMapping(
+//        value = "/user",
+//        produces = MediaType.APPLICATION_JSON_VALUE
+//    )
+//    public ResponseEntity<DefaultResponse> getAllUser() throws OrderNotificationException {
+//        this.orderNotificationService.sendNewOrder(newOrderDTO);
+//        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
+//    }
+//
+//    @GetMapping(
+//        value = "/user/{code}",
+//        produces = MediaType.APPLICATION_JSON_VALUE
+//    )
+//    public ResponseEntity<DefaultResponse> getUserById() throws OrderNotificationException {
+//        this.orderNotificationService.sendNewOrder(newOrderDTO);
+//        return new ResponseEntity<>(new DefaultResponse(DefaultResponse.SUCCESS, Messages.MSG_EMAIL_SENT_SUCCESSFUL), HttpStatus.OK);
+//    }
 
 }

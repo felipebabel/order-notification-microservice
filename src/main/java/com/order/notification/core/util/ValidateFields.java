@@ -27,9 +27,6 @@ public class ValidateFields {
             if (Objects.isNull(productsDto.getName())) {
                 throw new OrderNotificationException(Messages.MSG_FIELD_ID_NOT_INFORMED, Messages.SUCCESS_MSG);
             }
-            if (Objects.isNull(productsDto.getPrice())) {
-                throw new OrderNotificationException(Messages.MSG_FIELD_ID_NOT_INFORMED, Messages.SUCCESS_MSG);
-            }
             if (Objects.isNull(productsDto.getQuantity())) {
                 throw new OrderNotificationException(Messages.MSG_FIELD_ID_NOT_INFORMED, Messages.SUCCESS_MSG);
             }

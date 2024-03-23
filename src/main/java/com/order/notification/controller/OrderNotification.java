@@ -50,21 +50,21 @@ public interface OrderNotification {
         })
     ResponseEntity<DefaultResponse> createNewOrder(@RequestBody final NewOrderDTO newOrderDTO) throws OrderNotificationException;
 
-    ResponseEntity<DefaultResponse> createUser() throws OrderNotificationException;
-
-    ResponseEntity<DefaultResponse> createProduct() throws OrderNotificationException;
-
-    ResponseEntity<DefaultResponse> getProductById() throws OrderNotificationException;
-
-    ResponseEntity<DefaultResponse> getAllProduct() throws OrderNotificationException;
-
-    ResponseEntity<DefaultResponse> getAllOrder() throws OrderNotificationException;
-
-    ResponseEntity<DefaultResponse> getOrderById() throws OrderNotificationException;
-
-    ResponseEntity<DefaultResponse> getAllUser() throws OrderNotificationException;
-
-    ResponseEntity<DefaultResponse> getUserById() throws OrderNotificationException;
+//    ResponseEntity<DefaultResponse> createUser() throws OrderNotificationException;
+//
+//    ResponseEntity<DefaultResponse> createProduct() throws OrderNotificationException;
+//
+//    ResponseEntity<DefaultResponse> getProductById() throws OrderNotificationException;
+//
+//    ResponseEntity<DefaultResponse> getAllProduct() throws OrderNotificationException;
+//
+//    ResponseEntity<DefaultResponse> getAllOrder() throws OrderNotificationException;
+//
+//    ResponseEntity<DefaultResponse> getOrderById() throws OrderNotificationException;
+//
+//    ResponseEntity<DefaultResponse> getAllUser() throws OrderNotificationException;
+//
+//    ResponseEntity<DefaultResponse> getUserById() throws OrderNotificationException;
 
 }
 

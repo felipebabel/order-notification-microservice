@@ -27,9 +27,4 @@ public class ProductsDto {
         example = "15.6")
     private Double quantity;
 
-    @Schema(
-        description = "Product price",
-        example = "99.90")
-    private Double price;
-
 }
